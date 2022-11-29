@@ -64,6 +64,8 @@ a:hover {
 }
 .after_header {
     height: 86px;
+    display: flex;
+    align-items: center;
 }
 .secondary_menu {
 
@@ -92,4 +94,76 @@ a:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+.search_box {
+    border-bottom: 0.5px solid #BDBDBD;
+    max-width: 259px;
+}
+.search_box input {
+    border:none;
+    outline: none;
+}
+.favorite, .cart {
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    color: #343F24;
+    align-items: center;
+}
+.favorite {
+    margin-left: auto;
+    margin-right: 33px;
+}
+.favorite img {
+    width: 22px;
+    height: 20px;
+}
+.favorite img, .cart img {
+    margin-right: 9px;
+}
+.main_menu_section {
+    border-top: 2px solid #F9EDED;
+    border-bottom: 2px solid #F9EDED;
+    height: 73px;
+    display: flex;
+    align-items: center;
+}
+.main_menu_section .row {
+
+}
+.main_menu {
+align-items: center;
+    justify-content: space-between;
+}
+.main_menu li a {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #343F24;
+    transition: all .5s ease;
+}
+.main_menu li a:hover {
+    color: #D72848;
+}
+.slick-list.draggable {
+    overflow-x: hidden;
+}
+.main_slider .navs_slide {
+    position: absolute;
+    top: 40%;
+    font-size: 50px;
+    color: #fff;
+    z-index: 1;
+}
+.main_slider .next {
+    right:20px;
+}
+.main_slider .prev {
+    left: 20px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #343F24;
 }

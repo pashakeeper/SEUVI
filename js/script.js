@@ -6,4 +6,8 @@ $(document).ready(function (){
     });
     $('#number_phone').niceSelect();
     $('#language').niceSelect();
+    $('.main_slider').slick({
+        prevArrow: '<div class="prev navs_slide"><i class="fa fa-angle-left"></i></div>',
+        nextArrow: '<div class="next navs_slide"><i class="fa fa-angle-right"></i></div>',
+    });
 })
