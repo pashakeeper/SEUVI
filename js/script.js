@@ -1,7 +1,7 @@
-$(document).ready(function (){
-    $('.more_content').click(function(){ //you can give id or class name here for $('button')
-        $(this).html(function(i,old){
-            return old=='<img src="" alt=""> Згорнути' ?  '<img src="" alt=""> Розгорнути' : '<img src="" alt=""> Згорнути';
+$(document).ready(function () {
+    $('.more_content').click(function () { //you can give id or class name here for $('button')
+        $(this).html(function (i, old) {
+            return old == '<span class="more_img_box">+</span> Розгорнути' ? '<span class="more_img_box">-</span> Згорнути' : '<span class="more_img_box">+</span> Розгорнути';
         });
     });
     $('#number_phone').niceSelect();
