@@ -23,7 +23,7 @@ $(document).ready(function () {
     });
     $('.new_prod__slider').slick({
         arrows: false,
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
             {
