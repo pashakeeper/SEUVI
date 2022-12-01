@@ -28,21 +28,45 @@
     </div>
     <!--end of preheader-->
     <!--Header-->
+    <div id="overlay"></div>
     <header class="header" id="header">
         <div class="container first_container">
             <div class="row">
-                <div class="col-lg-6 d-flex align-items-center">
+                <div class="col-lg-6 phone_box d-flex align-items-center">
                     <a href="#" class="map"><img src="img/marker.svg" alt="">Kиїв</a>
                     <select name="" id="number_phone" value="+380 (73) 993 99 08">
                         <option value="">+380 (73) 993 99 08</option>
                         <option value="">+380 (73) 993 99 06</option>
                     </select>
                 </div>
-                <div class="col-lg-6 d-flex align-items-center justify-content-end">
+                <div class="col-lg-6 col-md-12  d-flex align-items-center justify-content-end">
+                    <ul class="nav main_menu__mobile">
+                        <li><a href="#">Бренди</a></li>
+                        <li><a href="#">Oбличчя</a></li>
+                        <li><a href="#">Тіло</a></li>
+                        <li><a href="#">Волосся</a></li>
+                        <li><a href="#">Make Up</a></li>
+                        <li><a href="#">Особливий догляд</a></li>
+                        <li><a href="#">Гігієна</a></li>
+                        <li><a href="#">Дім</a></li>
+                        <li><a href="#">Набори</a></li>
+                        <li><a href="#">Мініатюри</a></li>
+                    </ul>
                     <div class="burger"><span></span><span></span><span></span></div>
-                    <div class="search mobile"></div>
-                    <div class="favorite_mobile"></div>
-                    <div class="cart_mobile"></div>
+                    <a href="#" class="search_mobile">
+                        <img src="img/search_white.svg" alt="">
+                    </a>
+                    <a href="#" class="logo_mobile">
+                        <img src="img/logo_white.svg" alt="">
+                    </a>
+                    <a href="#" class="favorite_mobile">
+                        <img src="img/heart_white.svg" alt="">
+                        1
+                    </a>
+                    <a href="#" class="cart_mobile">
+                        <img src="img/cart_white.svg" alt="">
+                        1
+                    </a>
                     <select name="" id="language" value="Укр">
                         <option value="">Укр</option>
                         <option value="">EN</option>
@@ -114,9 +138,9 @@
 
     <!--section 01 -->
     <section class="section_01" id="section_01">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
+        <div class="container-fluid p-0">
+            <div class="row m-0">
+                <div class="col-lg-12 p-0">
                     <div class="main_slider">
                         <img src="img/slide.png" alt="">
                         <img src="img/slide.png" alt="">
@@ -159,7 +183,31 @@
                             <p class="price">930 грн</p>
                             <a href="#" class="by_btn">Купити <img src="img/bag_white.svg" alt=""></a>
                         </div>
+                        <div class="product">
+                            <div class="image_box">
+                                <div class="prod_label">new</div>
+                                <img class="prod_image" src="img/product1.png" alt="">
+                                <a href="#" class="add_to__favorite">
+                                    <img src="img/heart.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="prod_info_row">
+                                <ul class="nav nav_rating">
+                                    <li><img src="img/star.svg" alt=""></li>
+                                    <li><img src="img/star.svg" alt=""></li>
+                                    <li><img src="img/star.svg" alt=""></li>
+                                    <li><img src="img/star.svg" alt=""></li>
+                                    <li><img src="img/star.svg" alt=""></li>
+                                </ul>
+                                <a href="#" class="comments"><img src="img/comments.svg" alt=""> 10</a>
+                            </div>
+                            <h3>Захисний крем для чутливої шкіри Terrazen Blemish Relax Barrier Cream</h3>
+                            <a class="prod_category" href="#">Etude House</a>
+                            <p class="price">930 грн</p>
+                            <a href="#" class="by_btn">Купити <img src="img/bag_white.svg" alt=""></a>
+                        </div>
                     </div>
+                    <a href="#" class="show_more__mobile">Показати всі</a>
                 </div>
             </div>
         </div>
@@ -178,6 +226,36 @@
                             </div>
                             <p>Cуха шкіра</p>
                         </div>
+                        <div class="slide">
+                            <div class="icon_box">
+                                <img src="img/icon1.svg" alt="">
+                            </div>
+                            <p>Cуха шкіра</p>
+                        </div>
+                        <div class="slide">
+                            <div class="icon_box">
+                                <img src="img/icon1.svg" alt="">
+                            </div>
+                            <p>Cуха шкіра</p>
+                        </div>
+                        <div class="slide">
+                            <div class="icon_box">
+                                <img src="img/icon1.svg" alt="">
+                            </div>
+                            <p>Cуха шкіра</p>
+                        </div>
+                        <div class="slide">
+                            <div class="icon_box">
+                                <img src="img/icon1.svg" alt="">
+                            </div>
+                            <p>Cуха шкіра</p>
+                        </div>
+                        <div class="slide">
+                            <div class="icon_box">
+                                <img src="img/icon1.svg" alt="">
+                            </div>
+                            <p>Cуха шкіра</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -189,6 +267,9 @@
     <section class="discount_section" id="discount_section">
         <div class="container">
             <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="second_title">Акціії</h2>
+                </div>
                 <div class="col-lg-12">
                     <div class="discount_slider">
                         <div class="product">
@@ -228,7 +309,26 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="second_title">Бренди</h2>
+                    <p class="brand_text">
+                        О них не в силах молчать ни блогеры,
+                        ни бьюти-маньяки: гугл выдает сотни отзывов
+                        на эти чудо-салфетки.
+                        С уверенностью можем утверждать:
+                        “Гуд бай блекхед” помогут вам забыть
+                        о походах к косметологу на ультразвуковую
+                        чистку. Они действительно очень крутые,
+                        проверено редакцией!
+
+                        Тонкие салфетки (есть вариант в баночке
+                        и в пакетике для однократной процедуры) пропитаны специальной эссенцией, которая открывает поры
+                        и
+                        приподнимает сальные пробки над поверхностью кожи, чтобы вы без труда смогли их извлечь.
+                        Главное,
+                        придерживайтесь
+                        следующего протокола
+                    </p>
                 </div>
+
             </div>
             <div class="row">
                 <div class="col col_brand">
